@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.15.2, pytest-9.2.0, pluggy-1.7.0 -- /usr/local/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/abhay/Desktop/PRACTISE/python assignment
+collecting ... collected 10 items
+
+test_order.py::test_calculate_discount_valid PASSED                      [ 10%]
+test_order.py::test_calculate_discount_zero PASSED                       [ 20%]
+test_order.py::test_calculate_discount_invalid[-1] PASSED                [ 30%]
+test_order.py::test_calculate_discount_invalid[101] PASSED               [ 40%]
+test_order.py::test_calculate_discount_negative_price PASSED             [ 50%]
+test_order.py::test_calculate_discount_invalid_types PASSED              [ 60%]
+test_order.py::test_calculate_gst_valid PASSED                           [ 70%]
+test_order.py::test_calculate_gst_default_rate PASSED                    [ 80%]
+test_order.py::test_calculate_order_total_valid PASSED                   [ 90%]
+test_order.py::test_calculate_order_total_negative_price PASSED          [100%]
+
+============================== 10 passed in 0.01s ==============================

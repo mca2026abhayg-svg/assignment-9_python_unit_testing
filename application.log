@@ -1,0 +1,15 @@
+2026-11-25 10:32:48,705 - DEBUG - Starting order processing
+2026-11-25 10:32:48,705 - DEBUG - Received price=1000, discount=10%, gst_rate=18%
+2026-11-25 10:32:48,705 - INFO - Discount applied: discounted price is 900.00
+2026-11-25 10:32:48,705 - INFO - GST calculated: 162.00
+2026-11-25 10:32:48,705 - INFO - Order total calculated: 1062.00
+2026-11-25 10:32:48,705 - DEBUG - Starting order processing
+2026-11-25 10:32:48,705 - DEBUG - Received price=500, discount=0%, gst_rate=18%
+2026-11-25 10:32:48,705 - INFO - Discount applied: discounted price is 500.00
+2026-11-25 10:32:48,705 - INFO - GST calculated: 90.00
+2026-11-25 10:32:48,705 - INFO - Order total calculated: 590.00
+2026-11-25 10:32:48,705 - WARNING - No discount was applied
+2026-11-25 10:32:48,705 - DEBUG - Starting order processing
+2026-11-25 10:32:48,705 - DEBUG - Received price=-100, discount=10%, gst_rate=18%
+2026-11-25 10:32:48,705 - ERROR - Order processing failed: price cannot be negative
+2026-11-25 10:32:48,705 - ERROR - An invalid order was rejected
