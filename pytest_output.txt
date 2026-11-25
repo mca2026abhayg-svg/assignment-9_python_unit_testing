@@ -1,7 +1,7 @@
 ============================= test session starts ==============================
 platform darwin -- Python 3.15.2, pytest-9.2.0, pluggy-1.7.0 -- /usr/local/bin/python3
 cachedir: .pytest_cache
-rootdir: /Users/abhay/Desktop/PRACTISE/python assignment
+rootdir: /Users/abhay/Desktop/PRACTISE/Practical 9 Assignment
 collecting ... collected 10 items
 
 test_order.py::test_calculate_discount_valid PASSED                      [ 10%]
